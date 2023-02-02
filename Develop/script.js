@@ -1,7 +1,7 @@
 // Time display at top of page 
 var timeDisplay = $('#currentDay')
 
-  var currentTime = dayjs().format('dddd, MMMM D, YYYY');
+  var currentTime = dayjs().format('dddd, MMM DD, YYYY');
   timeDisplay.text(currentTime);
   $(document).ready(function () {
   // makes the save button on click
